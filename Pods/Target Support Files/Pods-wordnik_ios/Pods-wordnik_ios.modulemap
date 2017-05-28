@@ -1,0 +1,6 @@
+framework module Pods_wordnik_ios {
+  umbrella header "Pods-wordnik_ios-umbrella.h"
+
+  export *
+  module * { export * }
+}

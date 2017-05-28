@@ -1,0 +1,757 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0532E3BE1EB7B18A00497658 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0532E3BD1EB7B18A00497658 /* AppDelegate.swift */; };
+		0532E3C01EB7B18A00497658 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0532E3BF1EB7B18A00497658 /* LoginViewController.swift */; };
+		0532E3C31EB7B18A00497658 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0532E3C11EB7B18A00497658 /* Main.storyboard */; };
+		0532E3C51EB7B18A00497658 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0532E3C41EB7B18A00497658 /* Assets.xcassets */; };
+		0532E3C81EB7B18A00497658 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0532E3C61EB7B18A00497658 /* LaunchScreen.storyboard */; };
+		0532E3D31EB7B18A00497658 /* wordnik_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0532E3D21EB7B18A00497658 /* wordnik_iosTests.swift */; };
+		0532E3DE1EB7B18A00497658 /* wordnik_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0532E3DD1EB7B18A00497658 /* wordnik_iosUITests.swift */; };
+		0532E3EE1EB7B55400497658 /* Ailerons-Typeface.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0532E3ED1EB7B55400497658 /* Ailerons-Typeface.otf */; };
+		0532E3F01EB7BC1400497658 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0532E3EF1EB7BC1400497658 /* RegisterViewController.swift */; };
+		0532E3F21EB7BC2600497658 /* WordnikTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0532E3F11EB7BC2600497658 /* WordnikTableViewController.swift */; };
+		0532E3F41EB7D4F800497658 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0532E3F31EB7D4F800497658 /* DetailViewController.swift */; };
+		0532E3FA1EB7DE7600497658 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0532E3F91EB7DE7600497658 /* User.swift */; };
+		0532E3FE1EB7E02600497658 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0532E3FD1EB7E02600497658 /* GoogleService-Info.plist */; };
+		0532E4021EB7F7FC00497658 /* FavTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0532E4011EB7F7FC00497658 /* FavTableViewController.swift */; };
+		0532E4041EB7F80E00497658 /* FavTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0532E4031EB7F80E00497658 /* FavTableViewCell.swift */; };
+		4E065A61C032B9064E96864E /* Pods_wordnik_iosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2D4B83F1FF3E94215CB177A /* Pods_wordnik_iosTests.framework */; };
+		56D441028CA56FAC1C2FBAC3 /* Pods_wordnik_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B812E1B13A95429E32DD4B6C /* Pods_wordnik_ios.framework */; };
+		BC5F5BE495F1141B5A2FBF89 /* Pods_wordnik_iosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9214F729E37563175055FFA3 /* Pods_wordnik_iosUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0532E3CF1EB7B18A00497658 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0532E3B21EB7B18A00497658 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0532E3B91EB7B18A00497658;
+			remoteInfo = wordnik_ios;
+		};
+		0532E3DA1EB7B18A00497658 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0532E3B21EB7B18A00497658 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0532E3B91EB7B18A00497658;
+			remoteInfo = wordnik_ios;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0532E3BA1EB7B18A00497658 /* wordnik_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wordnik_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0532E3BD1EB7B18A00497658 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0532E3BF1EB7B18A00497658 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		0532E3C21EB7B18A00497658 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0532E3C41EB7B18A00497658 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0532E3C71EB7B18A00497658 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0532E3C91EB7B18A00497658 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0532E3CE1EB7B18A00497658 /* wordnik_iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wordnik_iosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0532E3D21EB7B18A00497658 /* wordnik_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wordnik_iosTests.swift; sourceTree = "<group>"; };
+		0532E3D41EB7B18A00497658 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0532E3D91EB7B18A00497658 /* wordnik_iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wordnik_iosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0532E3DD1EB7B18A00497658 /* wordnik_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wordnik_iosUITests.swift; sourceTree = "<group>"; };
+		0532E3DF1EB7B18A00497658 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0532E3ED1EB7B55400497658 /* Ailerons-Typeface.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Ailerons-Typeface.otf"; path = "../../../Downloads/Ailerons/Ailerons-Typeface.otf"; sourceTree = "<group>"; };
+		0532E3EF1EB7BC1400497658 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		0532E3F11EB7BC2600497658 /* WordnikTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordnikTableViewController.swift; sourceTree = "<group>"; };
+		0532E3F31EB7D4F800497658 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		0532E3F91EB7DE7600497658 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		0532E3FD1EB7E02600497658 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0532E4011EB7F7FC00497658 /* FavTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavTableViewController.swift; sourceTree = "<group>"; };
+		0532E4031EB7F80E00497658 /* FavTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavTableViewCell.swift; sourceTree = "<group>"; };
+		09F1078ABCA990A04E86EDE7 /* Pods-wordnik_iosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wordnik_iosTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-wordnik_iosTests/Pods-wordnik_iosTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1839EDF4AFA198849D139BEE /* Pods-wordnik_ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wordnik_ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-wordnik_ios/Pods-wordnik_ios.release.xcconfig"; sourceTree = "<group>"; };
+		1FFAD720127F99D6214ABD7C /* Pods-wordnik_iosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wordnik_iosUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-wordnik_iosUITests/Pods-wordnik_iosUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5A6DDB21AE9ECDE2FFCB3F2D /* Pods-wordnik_ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wordnik_ios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-wordnik_ios/Pods-wordnik_ios.debug.xcconfig"; sourceTree = "<group>"; };
+		855751AD18ABDECC5DDEC236 /* Pods-wordnik_iosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wordnik_iosTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-wordnik_iosTests/Pods-wordnik_iosTests.release.xcconfig"; sourceTree = "<group>"; };
+		9214F729E37563175055FFA3 /* Pods_wordnik_iosUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_wordnik_iosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2D4B83F1FF3E94215CB177A /* Pods_wordnik_iosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_wordnik_iosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B812E1B13A95429E32DD4B6C /* Pods_wordnik_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_wordnik_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0D8D8561465A925E9FAFDAB /* Pods-wordnik_iosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wordnik_iosUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-wordnik_iosUITests/Pods-wordnik_iosUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0532E3B71EB7B18A00497658 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56D441028CA56FAC1C2FBAC3 /* Pods_wordnik_ios.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0532E3CB1EB7B18A00497658 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E065A61C032B9064E96864E /* Pods_wordnik_iosTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0532E3D61EB7B18A00497658 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC5F5BE495F1141B5A2FBF89 /* Pods_wordnik_iosUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0532E3B11EB7B18A00497658 = {
+			isa = PBXGroup;
+			children = (
+				0532E3BC1EB7B18A00497658 /* wordnik_ios */,
+				0532E3D11EB7B18A00497658 /* wordnik_iosTests */,
+				0532E3DC1EB7B18A00497658 /* wordnik_iosUITests */,
+				0532E3BB1EB7B18A00497658 /* Products */,
+				AD41196BEDD3B27FD296F232 /* Pods */,
+				391581181D740250CFDD4930 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0532E3BB1EB7B18A00497658 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0532E3BA1EB7B18A00497658 /* wordnik_ios.app */,
+				0532E3CE1EB7B18A00497658 /* wordnik_iosTests.xctest */,
+				0532E3D91EB7B18A00497658 /* wordnik_iosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0532E3BC1EB7B18A00497658 /* wordnik_ios */ = {
+			isa = PBXGroup;
+			children = (
+				0532E3BD1EB7B18A00497658 /* AppDelegate.swift */,
+				0532E3BF1EB7B18A00497658 /* LoginViewController.swift */,
+				0532E3C11EB7B18A00497658 /* Main.storyboard */,
+				0532E3C41EB7B18A00497658 /* Assets.xcassets */,
+				0532E3C61EB7B18A00497658 /* LaunchScreen.storyboard */,
+				0532E3C91EB7B18A00497658 /* Info.plist */,
+				0532E3ED1EB7B55400497658 /* Ailerons-Typeface.otf */,
+				0532E3EF1EB7BC1400497658 /* RegisterViewController.swift */,
+				0532E3FD1EB7E02600497658 /* GoogleService-Info.plist */,
+				0532E3F11EB7BC2600497658 /* WordnikTableViewController.swift */,
+				0532E3F31EB7D4F800497658 /* DetailViewController.swift */,
+				0532E3F91EB7DE7600497658 /* User.swift */,
+				0532E4011EB7F7FC00497658 /* FavTableViewController.swift */,
+				0532E4031EB7F80E00497658 /* FavTableViewCell.swift */,
+			);
+			path = wordnik_ios;
+			sourceTree = "<group>";
+		};
+		0532E3D11EB7B18A00497658 /* wordnik_iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				0532E3D21EB7B18A00497658 /* wordnik_iosTests.swift */,
+				0532E3D41EB7B18A00497658 /* Info.plist */,
+			);
+			path = wordnik_iosTests;
+			sourceTree = "<group>";
+		};
+		0532E3DC1EB7B18A00497658 /* wordnik_iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0532E3DD1EB7B18A00497658 /* wordnik_iosUITests.swift */,
+				0532E3DF1EB7B18A00497658 /* Info.plist */,
+			);
+			path = wordnik_iosUITests;
+			sourceTree = "<group>";
+		};
+		391581181D740250CFDD4930 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B812E1B13A95429E32DD4B6C /* Pods_wordnik_ios.framework */,
+				B2D4B83F1FF3E94215CB177A /* Pods_wordnik_iosTests.framework */,
+				9214F729E37563175055FFA3 /* Pods_wordnik_iosUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD41196BEDD3B27FD296F232 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A6DDB21AE9ECDE2FFCB3F2D /* Pods-wordnik_ios.debug.xcconfig */,
+				1839EDF4AFA198849D139BEE /* Pods-wordnik_ios.release.xcconfig */,
+				09F1078ABCA990A04E86EDE7 /* Pods-wordnik_iosTests.debug.xcconfig */,
+				855751AD18ABDECC5DDEC236 /* Pods-wordnik_iosTests.release.xcconfig */,
+				1FFAD720127F99D6214ABD7C /* Pods-wordnik_iosUITests.debug.xcconfig */,
+				C0D8D8561465A925E9FAFDAB /* Pods-wordnik_iosUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0532E3B91EB7B18A00497658 /* wordnik_ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0532E3E21EB7B18B00497658 /* Build configuration list for PBXNativeTarget "wordnik_ios" */;
+			buildPhases = (
+				9D8633D6E3BEFB3CDDD0061E /* [CP] Check Pods Manifest.lock */,
+				0532E3B61EB7B18A00497658 /* Sources */,
+				0532E3B71EB7B18A00497658 /* Frameworks */,
+				0532E3B81EB7B18A00497658 /* Resources */,
+				F26E5C73170386C4650F871A /* [CP] Embed Pods Frameworks */,
+				3491312EFCE8C0EB8A6EE231 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wordnik_ios;
+			productName = wordnik_ios;
+			productReference = 0532E3BA1EB7B18A00497658 /* wordnik_ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0532E3CD1EB7B18A00497658 /* wordnik_iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0532E3E51EB7B18B00497658 /* Build configuration list for PBXNativeTarget "wordnik_iosTests" */;
+			buildPhases = (
+				8037D16D843997C508776488 /* [CP] Check Pods Manifest.lock */,
+				0532E3CA1EB7B18A00497658 /* Sources */,
+				0532E3CB1EB7B18A00497658 /* Frameworks */,
+				0532E3CC1EB7B18A00497658 /* Resources */,
+				AFF603E314E1407F3A2193CD /* [CP] Embed Pods Frameworks */,
+				AF37AC29B9C00B754EFC6A95 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0532E3D01EB7B18A00497658 /* PBXTargetDependency */,
+			);
+			name = wordnik_iosTests;
+			productName = wordnik_iosTests;
+			productReference = 0532E3CE1EB7B18A00497658 /* wordnik_iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0532E3D81EB7B18A00497658 /* wordnik_iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0532E3E81EB7B18B00497658 /* Build configuration list for PBXNativeTarget "wordnik_iosUITests" */;
+			buildPhases = (
+				BC8A0A686DEF48F872D8FF24 /* [CP] Check Pods Manifest.lock */,
+				0532E3D51EB7B18A00497658 /* Sources */,
+				0532E3D61EB7B18A00497658 /* Frameworks */,
+				0532E3D71EB7B18A00497658 /* Resources */,
+				682004433EDBADA1323C17C6 /* [CP] Embed Pods Frameworks */,
+				1524C451E5869F522B95AD90 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0532E3DB1EB7B18A00497658 /* PBXTargetDependency */,
+			);
+			name = wordnik_iosUITests;
+			productName = wordnik_iosUITests;
+			productReference = 0532E3D91EB7B18A00497658 /* wordnik_iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0532E3B21EB7B18A00497658 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = damirkazbekov;
+				TargetAttributes = {
+					0532E3B91EB7B18A00497658 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+					0532E3CD1EB7B18A00497658 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0532E3B91EB7B18A00497658;
+					};
+					0532E3D81EB7B18A00497658 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0532E3B91EB7B18A00497658;
+					};
+				};
+			};
+			buildConfigurationList = 0532E3B51EB7B18A00497658 /* Build configuration list for PBXProject "wordnik_ios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0532E3B11EB7B18A00497658;
+			productRefGroup = 0532E3BB1EB7B18A00497658 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0532E3B91EB7B18A00497658 /* wordnik_ios */,
+				0532E3CD1EB7B18A00497658 /* wordnik_iosTests */,
+				0532E3D81EB7B18A00497658 /* wordnik_iosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0532E3B81EB7B18A00497658 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0532E3C81EB7B18A00497658 /* LaunchScreen.storyboard in Resources */,
+				0532E3C51EB7B18A00497658 /* Assets.xcassets in Resources */,
+				0532E3FE1EB7E02600497658 /* GoogleService-Info.plist in Resources */,
+				0532E3C31EB7B18A00497658 /* Main.storyboard in Resources */,
+				0532E3EE1EB7B55400497658 /* Ailerons-Typeface.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0532E3CC1EB7B18A00497658 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0532E3D71EB7B18A00497658 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1524C451E5869F522B95AD90 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wordnik_iosUITests/Pods-wordnik_iosUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3491312EFCE8C0EB8A6EE231 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wordnik_ios/Pods-wordnik_ios-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		682004433EDBADA1323C17C6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wordnik_iosUITests/Pods-wordnik_iosUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8037D16D843997C508776488 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9D8633D6E3BEFB3CDDD0061E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AF37AC29B9C00B754EFC6A95 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wordnik_iosTests/Pods-wordnik_iosTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFF603E314E1407F3A2193CD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wordnik_iosTests/Pods-wordnik_iosTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC8A0A686DEF48F872D8FF24 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F26E5C73170386C4650F871A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wordnik_ios/Pods-wordnik_ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0532E3B61EB7B18A00497658 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0532E3F21EB7BC2600497658 /* WordnikTableViewController.swift in Sources */,
+				0532E4041EB7F80E00497658 /* FavTableViewCell.swift in Sources */,
+				0532E3F01EB7BC1400497658 /* RegisterViewController.swift in Sources */,
+				0532E4021EB7F7FC00497658 /* FavTableViewController.swift in Sources */,
+				0532E3FA1EB7DE7600497658 /* User.swift in Sources */,
+				0532E3F41EB7D4F800497658 /* DetailViewController.swift in Sources */,
+				0532E3C01EB7B18A00497658 /* LoginViewController.swift in Sources */,
+				0532E3BE1EB7B18A00497658 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0532E3CA1EB7B18A00497658 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0532E3D31EB7B18A00497658 /* wordnik_iosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0532E3D51EB7B18A00497658 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0532E3DE1EB7B18A00497658 /* wordnik_iosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0532E3D01EB7B18A00497658 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0532E3B91EB7B18A00497658 /* wordnik_ios */;
+			targetProxy = 0532E3CF1EB7B18A00497658 /* PBXContainerItemProxy */;
+		};
+		0532E3DB1EB7B18A00497658 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0532E3B91EB7B18A00497658 /* wordnik_ios */;
+			targetProxy = 0532E3DA1EB7B18A00497658 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0532E3C11EB7B18A00497658 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0532E3C21EB7B18A00497658 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0532E3C61EB7B18A00497658 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0532E3C71EB7B18A00497658 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0532E3E01EB7B18B00497658 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0532E3E11EB7B18B00497658 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0532E3E31EB7B18B00497658 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A6DDB21AE9ECDE2FFCB3F2D /* Pods-wordnik_ios.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = wordnik_ios/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "damirkazbekov.wordnik-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		0532E3E41EB7B18B00497658 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1839EDF4AFA198849D139BEE /* Pods-wordnik_ios.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = wordnik_ios/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "damirkazbekov.wordnik-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		0532E3E61EB7B18B00497658 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09F1078ABCA990A04E86EDE7 /* Pods-wordnik_iosTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = wordnik_iosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "damirkazbekov.wordnik-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wordnik_ios.app/wordnik_ios";
+			};
+			name = Debug;
+		};
+		0532E3E71EB7B18B00497658 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 855751AD18ABDECC5DDEC236 /* Pods-wordnik_iosTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = wordnik_iosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "damirkazbekov.wordnik-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wordnik_ios.app/wordnik_ios";
+			};
+			name = Release;
+		};
+		0532E3E91EB7B18B00497658 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FFAD720127F99D6214ABD7C /* Pods-wordnik_iosUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = wordnik_iosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "damirkazbekov.wordnik-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = wordnik_ios;
+			};
+			name = Debug;
+		};
+		0532E3EA1EB7B18B00497658 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0D8D8561465A925E9FAFDAB /* Pods-wordnik_iosUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = wordnik_iosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "damirkazbekov.wordnik-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = wordnik_ios;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0532E3B51EB7B18A00497658 /* Build configuration list for PBXProject "wordnik_ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0532E3E01EB7B18B00497658 /* Debug */,
+				0532E3E11EB7B18B00497658 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0532E3E21EB7B18B00497658 /* Build configuration list for PBXNativeTarget "wordnik_ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0532E3E31EB7B18B00497658 /* Debug */,
+				0532E3E41EB7B18B00497658 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0532E3E51EB7B18B00497658 /* Build configuration list for PBXNativeTarget "wordnik_iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0532E3E61EB7B18B00497658 /* Debug */,
+				0532E3E71EB7B18B00497658 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0532E3E81EB7B18B00497658 /* Build configuration list for PBXNativeTarget "wordnik_iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0532E3E91EB7B18B00497658 /* Debug */,
+				0532E3EA1EB7B18B00497658 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0532E3B21EB7B18A00497658 /* Project object */;
+}
